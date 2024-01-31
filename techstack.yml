@@ -1,0 +1,452 @@
+repo_name: shandanjay/wexstream
+report_id: a40ebf6b99fae37ecd7a9ecfd9e73945
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T14:27:10+00:00'
+requested_by: aelassas
+provider: github
+branch: main
+detected_tools_count: 33
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/shandanjay/wexstream
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shandanjay/wexstream
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:34:41.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:34:41.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 7.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:20:09.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 15:58:55.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shandanjay/wexstream
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/.github/workflows/frontend.yml
+  detection_source: ".github/workflows/frontend.yml"
+  last_updated_by: Akram El Assas
+  last_updated_on: 2023-01-29 00:37:50.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:20:09.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:20:09.000000000 Z
+- name: Passport
+  description: Simple, unobtrusive authentication for Node.js
+  website_url: http://passportjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://ucarecdn.com/8f3cac0e-b146-4f0f-878c-680a6671d804/
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/shandanjay/wexstream
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:34:41.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 11.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:34:41.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: compression
+  description: Node.js compression middleware
+  package_url: https://www.npmjs.com/compression
+  version: 1.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: crypto
+  description: This package is no longer supported and has been deprecated
+  package_url: https://www.npmjs.com/crypto
+  version: 1.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16387/default_000ae7ee50b56e0ecdb07d3662d4b3fa7f4cbdcc.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: escape-string-regexp
+  description: Escape RegExp special characters
+  package_url: https://www.npmjs.com/escape-string-regexp
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16736/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: helmet
+  description: Help secure Express/Connect apps with various HTTP headers
+  package_url: https://www.npmjs.com/helmet
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:20:09.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:20:09.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2022-12-06 11:00:20.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:34:41.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:34:41.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:34:41.000000000 Z
+- name: react-toastify
+  description: React notification made easy
+  package_url: https://www.npmjs.com/react-toastify
+  version: 9.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18461/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-07-14 18:34:41.000000000 Z
+- name: validator
+  description: String validation and sanitization
+  package_url: https://www.npmjs.com/validator
+  version: 13.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16255/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/shandanjay/wexstream/blob/main/api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: aelassas
+  last_updated_on: 2023-03-14 17:41:00.000000000 Z
